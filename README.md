@@ -6,17 +6,29 @@ The pipeline can be done in either Windows or Linux.
 
 ## Requirements
 
-- Python
+- [Python](https://www.python.org/downloads/)
 - [uv](https://docs.astral.sh/uv/)
-- Snakemake
+- [Snakemake](https://snakemake.readthedocs.io/en/stable/)
 
-## Setup
+## Installation
 
-Clone the repository and install the dependencies:
+Clone the repository:
+
+```bash
+git clone https://github.com/maaadlf/ao3_html_to_epub.git
+cd ao3_html_to_epub
+```
+
+Or download all files and go to the directory where they're stored.
+
+Install the project dependencies:
 
 ```bash
 uv sync
 ```
+
+This creates a virtual environment and installs the dependencies specified in `pyproject.toml` and `uv.lock`.
+
 
 ## Usage
 
