@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Snakemake
+.snakemake/
+
+# Input HTML files
+html/
+
+# Generated EPUB files
+epub/
+
+# Workflow completion markers
+*.deleted
+*.verified
+
+# IDE
+.vscode/
